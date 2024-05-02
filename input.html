@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="link-wrapper">
+        <a href="./index.html" class="html">Index HTML</a>
+        <a href="./text.html" class="html">Text HTML</a>
+    </div>
+    <div class="content">
+        <form class="input-form" onsubmit="create(event)">
+            <div class="item">
+                <p class="input-text">Width</p>
+                <input type="text" class="inpt">
+            </div>
+            <div class="item">
+                <p class="input-text">Height</p>
+                <input type="text" class="inpt">
+            </div>
+            <div class="item">
+                <p class="input-text">Radius</p>
+                <input type="text" class="inpt">
+            </div>
+            <div class="item">
+                <p class="input-text">Color</p>
+                <input type="text" class="inpt">
+            </div>
+            <button type="submit">Ok</button>
+        </form>
+        <div class="result-wrapper">
+            <div id="result">
+
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
